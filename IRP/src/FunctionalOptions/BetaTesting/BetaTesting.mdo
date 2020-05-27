@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af2f6565-10ac-43ab-b9f0-7fea1d91c923">
-  <name>BetaTesting</name>
-  <synonym>
-    <key>en</key>
-    <value>Beta testing</value>
-  </synonym>
-  <location>Constant.ShowBetaTesting</location>
-  <privilegedGetMode>true</privilegedGetMode>
-  <content>Catalog.PaymentSchedules</content>
-  <content>Document.ZReport</content>
-  <content>Document.CashInPOS</content>
-  <content>Document.ItemsFlow</content>
-  <content>Catalog.Workstations</content>
-  <content>Catalog.PaymentTypes</content>
+	<name>BetaTesting</name>
+	<synonym>
+		<key>en</key>
+		<value>96994278-A521-9C05-5082-2449558D9060</value>
+	</synonym>
+	<location>Constant.ShowBetaTesting</location>
+	<privilegedGetMode>true</privilegedGetMode>
+	<content>Catalog.PaymentSchedules</content>
+	<content>Document.ZReport</content>
+	<content>Document.CashInPOS</content>
+	<content>Document.ItemsFlow</content>
+	<content>Catalog.Workstations</content>
+	<content>Catalog.PaymentTypes</content>
 </mdclass:FunctionalOption>

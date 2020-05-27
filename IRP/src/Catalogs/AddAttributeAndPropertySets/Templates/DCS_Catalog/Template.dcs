@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dataSource>
 		<name>DataSource1</name>
@@ -12,7 +12,7 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>ItemType</v8:content>
+					<v8:content>4D40A4BD-C933-0368-83B5-593FA6C9B219</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -22,7 +22,7 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Ref</v8:content>
+					<v8:content>29033C90-0BD4-97C4-4A3B-B1F42571C29D</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -41,7 +41,7 @@ FROM
 				<title xsi:type="v8:LocalStringType">
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>ItemType</v8:content>
+						<v8:content>5D087402-EE48-34E3-3243-31C2D9E0615E</v8:content>
 					</v8:item>
 				</title>
 				<valueType>
@@ -54,7 +54,7 @@ FROM
 				<title xsi:type="v8:LocalStringType">
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Ref</v8:content>
+						<v8:content>BE52E217-B864-8434-46B4-460A27EA0613</v8:content>
 					</v8:item>
 				</title>
 				<valueType>

@@ -1,4 +1,4 @@
-#Region FormEvents
+﻿#Region FormEvents
 &AtServer
 Procedure OnCreateAtServer(Cancel, StandardProcessing)
 	LibraryLoader.RegisterLibrary(Object, ThisObject, Currencies_GetDeclaration(Object, ThisObject));	

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2123c355-b672-4599-a533-c11b0eea6044">
-  <name>AddAttributesAndPropertiesClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Add attributes and properties client</value>
-  </synonym>
-  <comment></comment>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>AddAttributesAndPropertiesClient</name>
+	<synonym>
+		<key>en</key>
+		<value>B0DD08B5-1A5B-5995-5472-2D28799CC43F</value>
+	</synonym>
+	<comment/>
+	<clientManagedApplication>true</clientManagedApplication>
 </mdclass:CommonModule>

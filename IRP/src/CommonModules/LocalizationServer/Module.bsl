@@ -1,4 +1,4 @@
-Function Strings(LangCode = "en") Export
+﻿Function Strings(LangCode = "en") Export
 	StringsStructure = Localization.Strings(LangCode);
 	If LangCode <> "en" Then
 		LocalisationStrings_df = Localization.Strings("en");

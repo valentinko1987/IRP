@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfaa2d56-1964-4bc5-81a7-821dc777169d">
-  <name>IDInfoServer</name>
-  <synonym>
-    <key>en</key>
-    <value>IDInfo server</value>
-  </synonym>
-  <comment></comment>
-  <server>true</server>
-  <serverCall>true</serverCall>
+	<name>IDInfoServer</name>
+	<synonym>
+		<key>en</key>
+		<value>CB9C8B96-3630-9D16-68A1-1DACCD8EE284</value>
+	</synonym>
+	<comment/>
+	<server>true</server>
+	<serverCall>true</serverCall>
 </mdclass:CommonModule>

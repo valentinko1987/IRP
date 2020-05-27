@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd08bb52-0382-4422-bcd8-062cba00707c">
-  <name>Documents</name>
-  <synonym>
-    <key>en</key>
-    <value>Documents</value>
-  </synonym>
-  <comment></comment>
-  <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.CashInPOS</content>
-  <content>Document.CashPayment</content>
-  <content>Document.CashReceipt</content>
-  <content>Document.PriceList</content>
-  <content>Document.SetupOfSpecialOffers</content>
-  <content>Document.ZReport</content>
-  <parentSubsystem>Subsystem.Service</parentSubsystem>
+	<name>Documents</name>
+	<synonym>
+		<key>en</key>
+		<value>93CB918D-9BC0-0F33-3675-53C0B9CBA708</value>
+	</synonym>
+	<comment/>
+	<includeHelpInContents>true</includeHelpInContents>
+	<includeInCommandInterface>true</includeInCommandInterface>
+	<content>Document.CashInPOS</content>
+	<content>Document.CashPayment</content>
+	<content>Document.CashReceipt</content>
+	<content>Document.PriceList</content>
+	<content>Document.SetupOfSpecialOffers</content>
+	<content>Document.ZReport</content>
+	<parentSubsystem>Subsystem.Service</parentSubsystem>
 </mdclass:Subsystem>

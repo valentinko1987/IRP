@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="481ce3b3-102e-4437-acde-66f223312cae">
-  <name>IDUse</name>
-  <synonym>
-    <key>en</key>
-    <value>IDUse</value>
-  </synonym>
-  <comment>ID Use</comment>
-  <type>
-    <types>Boolean</types>
-  </type>
+	<name>IDUse</name>
+	<synonym>
+		<key>en</key>
+		<value>06451977-ED22-0FA4-4C6C-CC362178791A</value>
+	</synonym>
+	<comment>ID Use</comment>
+	<type>
+		<types>Boolean</types>
+	</type>
 </mdclass:SessionParameter>
