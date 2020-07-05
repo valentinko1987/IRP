@@ -1,18 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c8c7037-737a-491e-9234-ff2c854da18e">
-  <name>CheckUniqueID</name>
-  <synonym>
-    <key>en</key>
-    <value>Check unique ID</value>
-  </synonym>
-  <source>
-    <types>ChartOfCharacteristicTypesObject.AddAttributeAndProperty</types>
-    <types>ChartOfCharacteristicTypesObject.IDInfoTypes</types>
-    <types>ChartOfCharacteristicTypesObject.CustomUserSettings</types>
-    <types>CatalogObject.ObjectStatuses</types>
-    <types>CatalogObject.IntegrationSettings</types>
-    <types>CatalogObject.AddAttributeAndPropertyValues</types>
-  </source>
-  <event>BeforeWrite</event>
-  <handler>CommonModule.UniqueID.CheckUniqueIDBeforeWrite</handler>
+	<name>CheckUniqueID</name>
+	<synonym>
+		<key>en</key>
+		<value>Check unique ID</value>
+	</synonym>
+	<source>
+		<types>ChartOfCharacteristicTypesObject.AddAttributeAndProperty</types>
+		<types>ChartOfCharacteristicTypesObject.IDInfoTypes</types>
+		<types>ChartOfCharacteristicTypesObject.CustomUserSettings</types>
+		<types>CatalogObject.ObjectStatuses</types>
+		<types>CatalogObject.IntegrationSettings</types>
+		<types>CatalogObject.AddAttributeAndPropertyValues</types>
+	</source>
+	<event>BeforeWrite</event>
+	<handler>CommonModule.UniqueID.CheckUniqueIDBeforeWrite</handler>
+	<synonym>
+		<key>tr</key>
+		<value>Eşsiz ID kontrolü yapmak</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Проверьте уникальный идентификатор</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Überprüfen eindeutige ID</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Verificați ID-ul unic</value>
+	</synonym>
 </mdclass:EventSubscription>

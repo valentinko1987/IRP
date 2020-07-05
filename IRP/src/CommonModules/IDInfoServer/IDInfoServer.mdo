@@ -1,10 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfaa2d56-1964-4bc5-81a7-821dc777169d">
-  <name>IDInfoServer</name>
-  <synonym>
-    <key>en</key>
-    <value>IDInfo server</value>
-  </synonym>
-  <server>true</server>
-  <serverCall>true</serverCall>
+	<name>IDInfoServer</name>
+	<synonym>
+		<key>en</key>
+		<value>IDInfo server</value>
+	</synonym>
+	<server>true</server>
+	<serverCall>true</serverCall>
+	<synonym>
+		<key>tr</key>
+		<value>İletişim bilgi server</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Скрипт сервера</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>IDInfo-server</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Server IDInfo</value>
+	</synonym>
 </mdclass:CommonModule>

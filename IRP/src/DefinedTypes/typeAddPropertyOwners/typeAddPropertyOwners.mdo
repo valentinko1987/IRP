@@ -1,17 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a09a61e4-db13-4e68-af32-fa1822a1e09c">
-  <producedTypes>
-    <containerType typeId="43da17cb-a64e-4fcd-8e47-78616a2c1c9e" valueTypeId="2bf71cc8-82db-46b9-97c7-3cc3bf615d1e"/>
-  </producedTypes>
-  <name>typeAddPropertyOwners</name>
-  <synonym>
-    <key>en</key>
-    <value>Type add property owners</value>
-  </synonym>
-  <type>
-    <types>CatalogRef.Items</types>
-    <types>CatalogRef.Specifications</types>
-    <types>CatalogRef.ItemKeys</types>
-    <types>CatalogRef.ItemTypes</types>
-  </type>
+	<producedTypes>
+		<containerType typeId="43da17cb-a64e-4fcd-8e47-78616a2c1c9e" valueTypeId="2bf71cc8-82db-46b9-97c7-3cc3bf615d1e"/>
+	</producedTypes>
+	<name>typeAddPropertyOwners</name>
+	<synonym>
+		<key>en</key>
+		<value>Type add property owners</value>
+	</synonym>
+	<type>
+		<types>CatalogRef.Items</types>
+		<types>CatalogRef.Specifications</types>
+		<types>CatalogRef.ItemKeys</types>
+		<types>CatalogRef.ItemTypes</types>
+	</type>
+	<synonym>
+		<key>tr</key>
+		<value>Tip ek özellik sahipleri</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Тип добавить владельцев недвижимости</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Typ hinzufügen Eigentümer</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Tip adăuga proprietarii de proprietate</value>
+	</synonym>
 </mdclass:DefinedType>

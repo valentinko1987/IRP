@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db835167-53c4-4fba-a461-b0a8398c12d6">
-  <name>AddDataProcClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Add data proc client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>AddDataProcClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Add data proc client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Ek veri işlemci istemci</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Добавить данные клиента прок </value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Daten hinzufügen, proc client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Adăugați client proc date</value>
+	</synonym>
 </mdclass:CommonModule>

@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a83eaae-dea6-4caf-aece-e8bdbf83d290">
-  <name>LibraryLoader</name>
-  <synonym>
-    <key>en</key>
-    <value>Library loader</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
-  <server>true</server>
-  <serverCall>true</serverCall>
+	<name>LibraryLoader</name>
+	<synonym>
+		<key>en</key>
+		<value>Library loader</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<server>true</server>
+	<serverCall>true</serverCall>
+	<synonym>
+		<key>tr</key>
+		<value>Kütüphane yükleyicisi</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Загрузчик библиотеки</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Bibliothek-loader</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Încărcător de bibliotecă</value>
+	</synonym>
 </mdclass:CommonModule>

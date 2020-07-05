@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="545e04a4-87fb-4429-b9f8-1a15665daad6">
-  <name>DocCashTransferOrderClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc cash transfer order client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocCashTransferOrderClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc cash transfer order client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Evrak finansal transfer siparişi client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Док передачи денежных средств распоряжения клиента </value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc cash transfer Auftrag Kunde</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Doc client pentru transfer de numerar</value>
+	</synonym>
 </mdclass:CommonModule>

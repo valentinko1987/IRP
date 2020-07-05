@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="874a72e5-82a6-4263-9058-52d3b2cdf846">
-  <name>DocSalesReturnOrderClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc sales return order client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocSalesReturnOrderClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc sales return order client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Evrak satış iadesi client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Продажи док возврата клиентом заказа </value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc-Umsätze zurück, um client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Vânzări de vânzări întoarcere pentru client</value>
+	</synonym>
 </mdclass:CommonModule>

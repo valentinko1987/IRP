@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9c942bf-2885-49ec-aec7-5bec3448b260">
-  <name>DocCashPaymentClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc cash payment client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocCashPaymentClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc cash payment client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Evrak kasa ödeme fişi client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Оплата клиентом док наличными </value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc Barzahlung client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Client de plată în numerar</value>
+	</synonym>
 </mdclass:CommonModule>

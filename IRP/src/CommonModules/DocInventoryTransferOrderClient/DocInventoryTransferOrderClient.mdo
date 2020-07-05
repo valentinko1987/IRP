@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8462b29a-6029-4976-9686-2556de798edb">
-  <name>DocInventoryTransferOrderClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc inventory transfer order client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocInventoryTransferOrderClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc inventory transfer order client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Evrak depo transfer siparişi client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Клиент заказа на перемещение запасов Doc</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc-Inventar übertragen, um client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Client pentru transferul inventarului inventarului</value>
+	</synonym>
 </mdclass:CommonModule>

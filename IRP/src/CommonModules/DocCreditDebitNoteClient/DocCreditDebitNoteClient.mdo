@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cc59d21-9e42-4973-ab93-ef85415863da">
-  <name>DocCreditDebitNoteClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc credit debit note client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocCreditDebitNoteClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc credit debit note client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Evrak borç alacak dekontu client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Док дебет кредит Примечание клиента</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc Kredit debit note client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Client de credit de debit notă de credit</value>
+	</synonym>
 </mdclass:CommonModule>

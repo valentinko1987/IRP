@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40acaae8-12a5-4b66-b996-419884c8da41">
-  <name>DocBankReceiptClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc bank receipt client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocBankReceiptClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc bank receipt client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Evrak banka tahsilat fişi client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Клиент док банковской квитанции </value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc überweisungsbeleg client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Client de primire bancară bancară</value>
+	</synonym>
 </mdclass:CommonModule>

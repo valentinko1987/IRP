@@ -1,61 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6650b44c-3cf7-4076-af1a-7b1745430f4f">
-  <producedTypes>
-    <objectType typeId="b483d9b4-087a-47e1-894a-edf2fd4031cf" valueTypeId="46615f63-b005-42e7-a5c0-b4141249db57"/>
-    <refType typeId="4a0f15a4-7a06-4aea-8a40-a16e8456a998" valueTypeId="2cf09ea7-8097-4763-b0c9-f566ff3855e3"/>
-    <selectionType typeId="45e7a99b-f5ae-4a87-bb24-236a775b1e04" valueTypeId="0faa6a4d-14f5-4a89-9004-a36532fef934"/>
-    <listType typeId="e97e81ab-d3ec-40ff-bbf5-39b07b352113" valueTypeId="4fa20078-b533-4c1e-9dd9-0a4a6c0d3f3e"/>
-    <managerType typeId="4fbb907b-4dee-4f10-a2bf-b1ffb1f6fdaf" valueTypeId="b4d31282-0190-4180-afdb-8c907a274f6e"/>
-  </producedTypes>
-  <name>ItemSegments</name>
-  <synonym>
-    <key>en</key>
-    <value>Item segments</value>
-  </synonym>
-  <useStandardCommands>true</useStandardCommands>
-  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <createOnInput>DontUse</createOnInput>
-  <dataLockControlMode>Managed</dataLockControlMode>
-  <objectPresentation>
-    <key>en</key>
-    <value>Item segment</value>
-  </objectPresentation>
-  <levelCount>2</levelCount>
-  <foldersOnTop>true</foldersOnTop>
-  <codeType>String</codeType>
-  <codeAllowedLength>Variable</codeAllowedLength>
-  <defaultPresentation>AsDescription</defaultPresentation>
-  <editType>InDialog</editType>
-  <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ItemSegments.Form.ItemForm</defaultObjectForm>
-  <defaultListForm>Catalog.ItemSegments.Form.ListForm</defaultListForm>
-  <defaultChoiceForm>Catalog.ItemSegments.Form.ChoiceForm</defaultChoiceForm>
-  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-  <forms uuid="b8453217-35cb-4dee-b99d-a6fe2bcc3015">
-    <name>ItemForm</name>
-    <synonym>
-      <key>en</key>
-      <value>Item form</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="48ffdd45-43be-4659-a1a0-a2ac58cfa261">
-    <name>ListForm</name>
-    <synonym>
-      <key>en</key>
-      <value>List form</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="49e3c075-1396-44aa-83e4-2a1562712f0c">
-    <name>ChoiceForm</name>
-    <synonym>
-      <key>en</key>
-      <value>Choice form</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
+	<producedTypes>
+		<objectType typeId="b483d9b4-087a-47e1-894a-edf2fd4031cf" valueTypeId="46615f63-b005-42e7-a5c0-b4141249db57"/>
+		<refType typeId="4a0f15a4-7a06-4aea-8a40-a16e8456a998" valueTypeId="2cf09ea7-8097-4763-b0c9-f566ff3855e3"/>
+		<selectionType typeId="45e7a99b-f5ae-4a87-bb24-236a775b1e04" valueTypeId="0faa6a4d-14f5-4a89-9004-a36532fef934"/>
+		<listType typeId="e97e81ab-d3ec-40ff-bbf5-39b07b352113" valueTypeId="4fa20078-b533-4c1e-9dd9-0a4a6c0d3f3e"/>
+		<managerType typeId="4fbb907b-4dee-4f10-a2bf-b1ffb1f6fdaf" valueTypeId="b4d31282-0190-4180-afdb-8c907a274f6e"/>
+	</producedTypes>
+	<name>ItemSegments</name>
+	<synonym>
+		<key>en</key>
+		<value>Item segments</value>
+	</synonym>
+	<useStandardCommands>true</useStandardCommands>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>DontUse</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<objectPresentation>
+		<key>en</key>
+		<value>Item segment</value>
+	</objectPresentation>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+	<defaultObjectForm>Catalog.ItemSegments.Form.ItemForm</defaultObjectForm>
+	<defaultListForm>Catalog.ItemSegments.Form.ListForm</defaultListForm>
+	<defaultChoiceForm>Catalog.ItemSegments.Form.ChoiceForm</defaultChoiceForm>
+	<choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+	<forms uuid="b8453217-35cb-4dee-b99d-a6fe2bcc3015">
+		<name>ItemForm</name>
+		<synonym>
+			<key>en</key>
+			<value>Item form</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+		<synonym>
+			<key>tr</key>
+			<value>Öğe formu</value>
+		</synonym>
+		<synonym>
+			<key>ru</key>
+			<value>Форма элемента</value>
+		</synonym>
+		<synonym>
+			<key>de</key>
+			<value>Artikel-Formular</value>
+		</synonym>
+		<synonym>
+			<key>ro</key>
+			<value>Formularul articolului</value>
+		</synonym>
+	</forms>
+	<forms uuid="48ffdd45-43be-4659-a1a0-a2ac58cfa261">
+		<name>ListForm</name>
+		<synonym>
+			<key>en</key>
+			<value>List form</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+		<synonym>
+			<key>tr</key>
+			<value>Liste formu</value>
+		</synonym>
+		<synonym>
+			<key>ru</key>
+			<value>Форма списка</value>
+		</synonym>
+		<synonym>
+			<key>de</key>
+			<value>Listenform</value>
+		</synonym>
+		<synonym>
+			<key>ro</key>
+			<value>Formularul de listă</value>
+		</synonym>
+	</forms>
+	<forms uuid="49e3c075-1396-44aa-83e4-2a1562712f0c">
+		<name>ChoiceForm</name>
+		<synonym>
+			<key>en</key>
+			<value>Choice form</value>
+		</synonym>
+		<usePurposes>PersonalComputer</usePurposes>
+		<usePurposes>MobileDevice</usePurposes>
+		<synonym>
+			<key>tr</key>
+			<value>Seçim formu</value>
+		</synonym>
+		<synonym>
+			<key>ru</key>
+			<value>Форма выбора</value>
+		</synonym>
+		<synonym>
+			<key>de</key>
+			<value>Wahl form</value>
+		</synonym>
+		<synonym>
+			<key>ro</key>
+			<value>Forma de alegere</value>
+		</synonym>
+	</forms>
+	<synonym>
+		<key>tr</key>
+		<value>Ürün segment kartları</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Товарные сегменты</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Artikel Segmente</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Segmente de articole</value>
+	</synonym>
+	<objectPresentation>
+		<key>tr</key>
+		<value>Malzeme listesi</value>
+	</objectPresentation>
+	<objectPresentation>
+		<key>de</key>
+		<value>Element segment</value>
+	</objectPresentation>
+	<objectPresentation>
+		<key>ro</key>
+		<value>Element segment</value>
+	</objectPresentation>
 </mdclass:Catalog>

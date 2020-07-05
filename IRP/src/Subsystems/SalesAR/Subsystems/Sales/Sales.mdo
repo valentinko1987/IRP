@@ -1,15 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="775fc545-53e2-4928-9f69-1ed2cdee6c14">
-  <name>Sales</name>
-  <synonym>
-    <key>en</key>
-    <value>Sales</value>
-  </synonym>
-  <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Document.SalesOrder</content>
-  <content>Document.SalesInvoice</content>
-  <content>Document.ZReport</content>
-  <content>Document.ShipmentConfirmation</content>
-  <parentSubsystem>Subsystem.SalesAR</parentSubsystem>
+	<name>Sales</name>
+	<synonym>
+		<key>en</key>
+		<value>Sales</value>
+	</synonym>
+	<includeHelpInContents>true</includeHelpInContents>
+	<includeInCommandInterface>true</includeInCommandInterface>
+	<content>Document.SalesOrder</content>
+	<content>Document.SalesInvoice</content>
+	<content>Document.ZReport</content>
+	<content>Document.ShipmentConfirmation</content>
+	<parentSubsystem>Subsystem.SalesAR</parentSubsystem>
+	<synonym>
+		<key>tr</key>
+		<value>Satışlar</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Продажи</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Umsatz</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Vânzări</value>
+	</synonym>
 </mdclass:Subsystem>

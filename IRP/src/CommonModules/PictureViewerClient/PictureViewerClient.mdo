@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0529430b-6886-45a9-95fb-ddc017a11dc8">
-  <name>PictureViewerClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Picture viewer client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>PictureViewerClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Picture viewer client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Resim önizleme client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Клиент для просмотра изображений</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Bild-Betrachter-client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Client vizualizator de imagini</value>
+	</synonym>
 </mdclass:CommonModule>

@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28c86396-85aa-4c93-8369-420ff9d21848">
-  <name>UseAllFunctionsMode</name>
-  <synonym>
-    <key>en</key>
-    <value>Use all functions mode</value>
-  </synonym>
+	<name>UseAllFunctionsMode</name>
+	<synonym>
+		<key>en</key>
+		<value>Use all functions mode</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Режим использования всех функций</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Verwenden Sie alle Funktionen Modus</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Utilizați toate funcțiile modul</value>
+	</synonym>
 </mdclass:Role>

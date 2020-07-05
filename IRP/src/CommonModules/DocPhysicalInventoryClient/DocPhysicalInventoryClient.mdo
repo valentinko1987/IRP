@@ -1,9 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="974cdc90-bfca-449f-8cef-7c9d7fda1dbf">
-  <name>DocPhysicalInventoryClient</name>
-  <synonym>
-    <key>en</key>
-    <value>Doc physical inventory client</value>
-  </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
+	<name>DocPhysicalInventoryClient</name>
+	<synonym>
+		<key>en</key>
+		<value>Doc physical inventory client</value>
+	</synonym>
+	<clientManagedApplication>true</clientManagedApplication>
+	<synonym>
+		<key>tr</key>
+		<value>Doc stok sayım fişi client</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Клиент физической инвентаризации Doc</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Doc physisches Inventar client</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Doc client inventar fizic</value>
+	</synonym>
 </mdclass:CommonModule>

@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb37ee21-a324-474f-a881-e1b81e8bd81d">
-  <name>SaveUserData</name>
-  <synonym>
-    <key>en</key>
-    <value>Save user data</value>
-  </synonym>
+	<name>SaveUserData</name>
+	<synonym>
+		<key>en</key>
+		<value>Save user data</value>
+	</synonym>
+	<synonym>
+		<key>ru</key>
+		<value>Сохранение пользовательских данных</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Benutzerdaten speichern</value>
+	</synonym>
+	<synonym>
+		<key>ro</key>
+		<value>Salvați datele utilizatorului</value>
+	</synonym>
 </mdclass:Role>
