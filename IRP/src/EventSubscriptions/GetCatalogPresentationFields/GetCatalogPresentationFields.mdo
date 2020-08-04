@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4933b72-dc76-482d-962f-8b8802b739a8">
-  <name>GetCatalogPresentationFields</name>
-  <synonym>
-    <key>en</key>
-    <value>Get catalog presentation fields</value>
-  </synonym>
-  <source>
-    <types>ChartOfCharacteristicTypesManager</types>
-    <types>CatalogManager</types>
-  </source>
-  <event>PresentationFieldsGetProcessing</event>
-  <handler>CommonModule.LocalizationEvents.GetCatalogPresentationFieldsPresentationFieldsGetProcessing</handler>
+	<name>GetCatalogPresentationFields</name>
+	<synonym>
+		<key>hash</key>
+		<value>7B061B29-260E-BEC5-5C30-04B71B2B495C</value>
+	</synonym>
+	<source>
+		<types>ChartOfCharacteristicTypesManager</types>
+		<types>CatalogManager</types>
+	</source>
+	<event>PresentationFieldsGetProcessing</event>
+	<handler>CommonModule.LocalizationEvents.GetCatalogPresentationFieldsPresentationFieldsGetProcessing</handler>
 </mdclass:EventSubscription>

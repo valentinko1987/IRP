@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<dataSource>
 		<name>DataSource1</name>
@@ -11,8 +11,8 @@
 			<field>PriceType</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Price type</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>FAF8C062-51FD-92C3-324B-B91C4CB32E5C</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -24,8 +24,8 @@
 			<field>Price</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Price</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>243F28CE-3F13-CFE6-6717-7D998953E5E1</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -37,8 +37,8 @@
 			<field>Item</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Item</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>BABD22A9-0869-8826-60F3-37ED109692E9</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -50,8 +50,8 @@
 			<field>ItemKey</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Item Key</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>47B2366F-F24C-6246-629E-E5586CD9F7E2</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -63,8 +63,8 @@
 			<field>PriceDefinitionType</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Price definition type</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>EAB5A2C7-EE25-8FC3-354B-B50EB5880D3D</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -80,8 +80,8 @@
 			<field>PriceDefinitionReason</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Price definition reason</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>28D12A58-121A-CF97-77FC-CBB5B2246630</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -95,8 +95,8 @@
 			<field>IsPriority</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Is priority</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>D092C111-444E-CB81-1AC9-9390358A4E0A</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -108,8 +108,8 @@
 			<field>PriceDefinitionReasonString</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Price definition reason string</v8:content>
+					<v8:lang>hash</v8:lang>
+					<v8:content>687EE51C-374E-F3C4-4009-9B646E5E88B9</v8:content>
 				</v8:item>
 			</title>
 			<valueType>
@@ -140,8 +140,8 @@
 		<name>PricePeriod</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
-				<v8:lang>en</v8:lang>
-				<v8:content>Price period</v8:content>
+				<v8:lang>hash</v8:lang>
+				<v8:content>D4EF97C6-B544-F929-9275-5B711CADFC14</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -335,8 +335,8 @@
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Price</v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>69A72967-1AAE-E5D3-3EC6-617D6E146F33</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -405,8 +405,8 @@
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Reason</v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>C157493E-4D50-0DAC-C462-207084D42EAA</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -559,7 +559,7 @@
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content> </v8:content>
+								<v8:content>###025ADA5B-4C45-E1DD-DAC1-17B46FBB5378###</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -844,8 +844,8 @@
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Item</v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>0EEF2699-0A30-D590-09DF-F3D6FF53D648</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -888,8 +888,8 @@
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Item Key</v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>10DC9367-4885-D8BC-CB2E-EF6E1BA7A545</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -976,8 +976,8 @@
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Prices on </v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>11055A38-C721-E237-760C-C73262BB77F8</v8:content>
 							</v8:item>
 						</dcsat:value>
 					</dcsat:item>
@@ -1193,8 +1193,8 @@
 		<dcsset:name>PriceInfo</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
 			<v8:item>
-				<v8:lang>en</v8:lang>
-				<v8:content>Price info</v8:content>
+				<v8:lang>hash</v8:lang>
+				<v8:content>29CD56F4-C57B-FE0F-F876-69AAEA513277</v8:content>
 			</v8:item>
 		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -1338,8 +1338,8 @@
 						<dcscor:parameter>Title</dcscor:parameter>
 						<dcscor:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Actual prices</v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>0FF9665B-AF5A-DEA3-359B-B11A47D71387</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
@@ -1473,8 +1473,8 @@
 						<dcscor:parameter>Title</dcscor:parameter>
 						<dcscor:value xsi:type="v8:LocalStringType">
 							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>All prices</v8:content>
+								<v8:lang>hash</v8:lang>
+								<v8:content>49E6DB6C-41D3-6FD4-4954-4675BBC8B836</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
