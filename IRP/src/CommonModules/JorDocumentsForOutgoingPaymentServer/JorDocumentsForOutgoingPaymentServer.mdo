@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7946457a-4f3a-483d-8b99-1925146e789f">
-  <name>JorDocumentsForOutgoingPaymentServer</name>
-  <synonym>
-    <key>en</key>
-    <value>Jor documents for outgoing payment server</value>
-  </synonym>
-  <server>true</server>
-  <serverCall>true</serverCall>
+	<name>JorDocumentsForOutgoingPaymentServer</name>
+	<synonym>
+		<key>en</key>
+		<value>Jor documents for outgoing payment server</value>
+	</synonym>
+	<server>true</server>
+	<serverCall>true</serverCall>
+	<synonym>
+		<key>ru</key>
+		<value>Журнал документов для исходящих платежей сервер</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Jour Dokumente für Geldausgang Server</value>
+	</synonym>
 </mdclass:CommonModule>

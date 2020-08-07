@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="228f5926-3406-4e2c-bcb9-421d33c1b877">
-  <name>GoogleDriveServer</name>
-  <synonym>
-    <key>en</key>
-    <value>Google drive server</value>
-  </synonym>
-  <server>true</server>
-  <serverCall>true</serverCall>
+	<name>GoogleDriveServer</name>
+	<synonym>
+		<key>en</key>
+		<value>Google drive server</value>
+	</synonym>
+	<server>true</server>
+	<serverCall>true</serverCall>
+	<synonym>
+		<key>ru</key>
+		<value>Google drive сервер</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Google Drive Server</value>
+	</synonym>
 </mdclass:CommonModule>

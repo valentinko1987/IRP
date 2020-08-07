@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="448c0df8-6af6-44f9-bbdf-72986c99ebb0">
-  <name>Mobile</name>
-  <synonym>
-    <key>en</key>
-    <value>Mobile</value>
-  </synonym>
-  <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
+	<name>Mobile</name>
+	<synonym>
+		<key>en</key>
+		<value>Mobile</value>
+	</synonym>
+	<includeHelpInContents>true</includeHelpInContents>
+	<includeInCommandInterface>true</includeInCommandInterface>
+	<synonym>
+		<key>ru</key>
+		<value>Мобильная подсистема</value>
+	</synonym>
+	<synonym>
+		<key>de</key>
+		<value>Mobil</value>
+	</synonym>
 </mdclass:Subsystem>
