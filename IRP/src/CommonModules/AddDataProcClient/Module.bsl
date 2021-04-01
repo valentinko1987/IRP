@@ -30,3 +30,4 @@ Function GetFormAddDataProc(Info, Owner = Undefined, FormName = Undefined, AddIn
 	Return ReceivedForm;
 	
 EndFunction
+A = 1;
