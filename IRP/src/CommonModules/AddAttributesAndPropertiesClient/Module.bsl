@@ -49,3 +49,4 @@ Function AddAttributeInfoForHTML(ItemRef, UUID, FileRef = Undefined) Export
 EndFunction
 
 #EndRegion
+A = 1;
