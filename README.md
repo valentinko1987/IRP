@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![Quality Gate Status](https://dev.irpteam.com/sq/api/project_badges/measure?project=IRP&metric=alert_status)](https://dev.irpteam.com/sq/dashboard?id=IRP)
 [![Reliability Rating](https://dev.irpteam.com/sq/api/project_badges/measure?project=IRP&metric=reliability_rating)](https://dev.irpteam.com/sq/dashboard?id=IRP)
 [![Coverage](https://dev.irpteam.com/sq/api/project_badges/measure?project=IRP&metric=coverage)](https://dev.irpteam.com/sq/dashboard?id=IRP)
@@ -7,6 +8,11 @@
 [![Quality Gate Status](https://ci.irp.one/api/project_badges/measure?project=test.IRP&metric=alert_status)](https://ci.irp.one/dashboard?id=IRP)
 [![Reliability Rating](https://ci.irp.one/api/project_badges/measure?project=test.IRP&metric=reliability_rating)](https://ci.irp.one/dashboard?id=IRP)
 [![Coverage](https://ci.irp.one/api/project_badges/measure?project=test.IRP&metric=coverage)](https://ci.irp.one/dashboard?id=IRP)
+=======
+[![Quality Gate Status](https://ci.irp.one/api/project_badges/measure?project=IRP&metric=alert_status)](https://ci.irp.one/dashboard?id=IRP)
+[![Reliability Rating](https://ci.irp.one/api/project_badges/measure?project=IRP&metric=reliability_rating)](https://ci.irp.one/dashboard?id=IRP)
+[![Coverage](https://ci.irp.one/api/project_badges/measure?project=IRP&metric=coverage)](https://ci.irp.one/dashboard?id=IRP)
+>>>>>>> fc8998d9d (Update README.md)
 [![Allure](https://img.shields.io/badge/allure-open-yellowgreen)](http://95.216.127.147:9200/repository/download/IRP_RunVA/.lastSuccessful/allure-report.zip!/index.html?branch=develop)
 >>>>>>> caff3fa2e (Update README.md)
 
