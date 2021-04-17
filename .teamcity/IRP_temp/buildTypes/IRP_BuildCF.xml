@@ -3,6 +3,9 @@
   <name>BuildCF</name>
   <description />
   <settings>
+    <disabled-settings>
+      <setting-ref ref="RUNNER_16" />
+    </disabled-settings>
     <parameters>
       <param name="env.CheckConfigSettings" value="/CheckConfig -ConfigLogIntegrity -IncorrectReferences -ThinClient -WebClient -MobileClient -MobileAppClient -Server -MobileAppServer -MobileClientStandalone -ExternalConnection -ExternalConnectionServer -ThickClientManagedApplication -ThickClientServerManagedApplication -ThickClientOrdinaryApplication -ThickClientServerOrdinaryApplication -DistributiveModules -UnreferenceProcedures -HandlersExistence -EmptyHandlers -ExtendedModulesCheck -CheckUseModality -CheckUseSynchronousCalls -UnsupportedFunctional -MobileClientDigiSign" />
       <param name="env.Database1CName" value="%dep.IRP_GitHubUpdate.env.Database1CName%" />
