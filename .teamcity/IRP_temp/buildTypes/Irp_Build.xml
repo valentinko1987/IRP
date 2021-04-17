@@ -14,7 +14,7 @@
       </runner>
       <runner id="RUNNER_2" name="Sonar Start Scan" type="sonar-plugin">
         <parameters>
-          <param name="additionalParameters" value="-Dsonar.coverageReportPaths=%system.teamcity.build.workingDir%/Cover.xml" />
+          <param name="additionalParameters" value="%dep.IRP_GitHubUpdate.env.SonarParamCover%" />
           <param name="sonarProjectKey" value="%teamcity.project.id%" />
           <param name="sonarProjectName" value="%system.teamcity.projectName%" />
           <param name="sonarProjectSources" value="IRP\src" />
