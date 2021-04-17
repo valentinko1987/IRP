@@ -88,6 +88,11 @@ echo ##teamcity[compilationFinished compiler='Log from 1C: %env.LogFile1C%']]]><
           <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
+      <runner id="RUNNER_17" name="Drop DB MetaRunner" type="DropDB">
+        <parameters>
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Irp_HttpsGithubComValentinko1987irpRefsHeadsDevelop" />
