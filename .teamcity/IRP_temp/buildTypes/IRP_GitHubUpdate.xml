@@ -11,6 +11,7 @@
           <param name="jetbrains_powershell_noprofile" value="true" />
           <param name="jetbrains_powershell_script_code"><![CDATA[if('%teamcity.pullRequest.target.branch%' -eq '%env.BranchToStartVA')
 {
+$SonarParamCover = '-Dsonar.coverageReportPaths=%system.teamcity.build.workingDir%/Cover.xml'
 $InfobaseName = '%env.Database1CName%_%teamcity.pullRequest.target.branch%_pull%teamcity.pullRequest.number%'
 }
 elseif('%teamcity.build.branch%' -eq '%env.BranchToStartVA%')
