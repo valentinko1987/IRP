@@ -136,6 +136,18 @@ echo ##teamcity[compilationFinished compiler='Log from 1C: %env.LogFile1C%']]]><
           <param name="buildFailureOnMessage.reverse" value="false" />
         </parameters>
       </extension>
+      <extension id="BUILD_EXT_8" type="JetBrains.FileContentReplacer">
+        <parameters>
+          <param name="teamcity.file.content.replacer.failBuild" value="true" />
+          <param name="teamcity.file.content.replacer.file.encoding" value="autodetect" />
+          <param name="teamcity.file.content.replacer.file.encoding.custom" value="autodetect" />
+          <param name="teamcity.file.content.replacer.pattern" value="#BuildNumber#" />
+          <param name="teamcity.file.content.replacer.pattern.case.sensitive" value="true" />
+          <param name="teamcity.file.content.replacer.regexMode" value="REGEX" />
+          <param name="teamcity.file.content.replacer.replacement" value="%env.BUILD_NUMBER%" />
+          <param name="teamcity.file.content.replacer.wildcards" value="+:src\IRP\src\Configuration\Configuration.mdo" />
+        </parameters>
+      </extension>
     </build-extensions>
     <dependencies>
       <depend-on sourceBuildTypeId="IRP_GitHubUpdate">
