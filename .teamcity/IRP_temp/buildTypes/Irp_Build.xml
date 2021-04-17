@@ -24,6 +24,11 @@
           <param name="teamcity.tool.sonarquberunner" value="%teamcity.tool.sonar-qube-scanner.DEFAULT%" />
         </parameters>
       </runner>
+      <runner id="RUNNER_18" name="Drop DB" type="DropDB">
+        <parameters>
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Irp_HttpsGithubComValentinko1987irpRefsHeadsDevelop" />
