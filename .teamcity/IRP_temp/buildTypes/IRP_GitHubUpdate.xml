@@ -16,10 +16,12 @@ $InfobaseName = '%env.Database1CName%_%teamcity.pullRequest.target.branch%_pull%
 }
 elseif('%teamcity.build.branch%' -eq '%env.BranchToStartVA%')
 {
+$SonarParamCover = '-Dsonar.coverageReportPaths=%system.teamcity.build.workingDir%/Cover.xml'
 $InfobaseName = '%env.Database1CName%_%env.BranchToStartVA%'
 }
 else
 {
+$SonarParamCover = ''
 $InfobaseName = '%env.Database1CName%_%env.BranchToStartVA%'
 }	
 echo "##teamcity[setParameter name='env.Database1CName' value='$InfobaseName']"]]></param>
