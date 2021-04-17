@@ -282,6 +282,9 @@ coverage-cli convert --input %system.teamcity.build.workingDir%/Cover.csv --outp
         </parameters>
       </runner>
       <runner id="RUNNER_9" name="" type="allureReportGeneratorRunner">
+        <conditions>
+          <equals name="dep.IRP_GitHubUpdate.env.StartVA" value="true" />
+        </conditions>
         <parameters>
           <param name="allure.publish.mode" value="ARCHIVE" />
           <param name="allure.report.path.prefix" value="allure-report" />
