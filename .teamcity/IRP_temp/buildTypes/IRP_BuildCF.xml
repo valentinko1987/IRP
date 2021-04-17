@@ -51,6 +51,11 @@ $cmdOutput]]></param>
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_17" name="Drop DB MetaRunner" type="DropDB">
+        <parameters>
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
       <runner id="RUNNER_3" name="Create New Template Database" type="simpleRunner">
         <parameters>
           <param name="script.content"><![CDATA[start /wait "1cv8.exe" %env.PathTo1CPlatform% CREATEINFOBASE Srvr=localhost;Ref=%env.Database1CName%;DBMS=MSSQLServer;DBSrvr=localhost;DB=%env.Database1CName%;DBUID=sa;DBPwd=GfhjkmSa21;CrSQLDB=Y;SchJobDn=N; /UseTemplate %teamcity.tool.clean_irp%\IRP.dt /Out %env.LogFile1C% /DisableStartupMessages
@@ -86,11 +91,6 @@ sh -c "while read line; do if [[ $line == *""<<?>>""* ]]; then echo -e ""\e[31m 
 echo ##teamcity[compilationFinished compiler='Log from 1C: %env.LogFile1C%']]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
-        </parameters>
-      </runner>
-      <runner id="RUNNER_17" name="Drop DB MetaRunner" type="DropDB">
-        <parameters>
-          <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
     </build-runners>
