@@ -235,6 +235,9 @@ $a | ConvertTo-Json -depth 32 | set-content %system.teamcity.build.workingDir%/v
         </parameters>
       </runner>
       <runner id="RUNNER_10" name="Start Coverage" type="simpleRunner">
+        <conditions>
+          <equals name="dep.IRP_GitHubUpdate.env.StartVA" value="true" />
+        </conditions>
         <parameters>
           <param name="script.content" value="coverage-cli start --infobase %env.Database1CName% --debugger http://localhost:1550 --output %system.teamcity.build.workingDir%/Cover.csv" />
           <param name="teamcity.step.mode" value="default" />
