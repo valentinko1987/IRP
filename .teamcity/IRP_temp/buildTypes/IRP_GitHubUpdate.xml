@@ -3,7 +3,9 @@
   <name>GitHubUpdate</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="env.SonarParamCover" value="" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_15" name="Set Infobase name" type="jetbrains_powershell">
         <parameters>
