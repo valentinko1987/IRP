@@ -261,6 +261,9 @@ echo ##teamcity[compilationFinished compiler='Log from 1C: %env.LogFile1C%']]]><
         </parameters>
       </runner>
       <runner id="RUNNER_11" name="Stop Coverage" type="simpleRunner">
+        <conditions>
+          <equals name="dep.IRP_GitHubUpdate.env.StartVA" value="true" />
+        </conditions>
         <parameters>
           <param name="script.content" value="coverage-cli stop" />
           <param name="teamcity.step.mode" value="default" />
