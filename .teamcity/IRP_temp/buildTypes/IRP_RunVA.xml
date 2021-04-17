@@ -271,6 +271,9 @@ echo ##teamcity[compilationFinished compiler='Log from 1C: %env.LogFile1C%']]]><
         </parameters>
       </runner>
       <runner id="RUNNER_12" name="Cover convert" type="simpleRunner">
+        <conditions>
+          <equals name="dep.IRP_GitHubUpdate.env.StartVA" value="true" />
+        </conditions>
         <parameters>
           <param name="script.content"><![CDATA[chcp1251
 coverage-cli convert --input %system.teamcity.build.workingDir%/Cover.csv --output %system.teamcity.build.workingDir%/Cover.xml --sources src\IRP\src --fromat EDT & powershell -command "(Get-Content %system.teamcity.build.workingDir%/Cover.xml) | ForEach-Object { $_ -replace '\\', '/' } | Set-Content %system.teamcity.build.workingDir%/Cover.xml"]]></param>
